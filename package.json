@@ -1,0 +1,25 @@
+{
+  "name": "sloth-facts-sms-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://singerbj@bitbucket.org/bitchnmen/slothfacts.git"
+  },
+  "author": "Benjamin Singer",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/bitchnmen/slothfacts#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.3",
+    "lowdb": "^0.12.5",
+    "mongodb": "^2.2.9",
+    "nodemailer": "^2.6.0",
+    "underscore": "^1.8.3"
+  }
+}
